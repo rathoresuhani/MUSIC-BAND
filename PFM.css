@@ -1,0 +1,66 @@
+*{ 
+  margin:0;
+  font-family: Arial;
+  padding:0;
+  border: border-box;
+}
+
+.background{
+  background-image: url('image5.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.Bmusic{
+  height: 60px;
+  font-size: 40px;
+  background-color: rgb(207, 204, 204);
+  color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: black;
+}
+
+.Bbox{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 360px;
+}
+
+.Mbox{
+  height: 350px;
+  width: 24%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 10px 0px 15px;
+  margin-top: 10px;
+  border: 2px solid black; 
+  border-radius: 8px;
+
+}
+
+.mubox{
+  background-color: white;
+}
+
+.img{
+  height:300px;
+  width:92%;
+  background-image: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img:hover{
+  transform:scale(1.05);
+  border-radius: 3.5px;
+}
